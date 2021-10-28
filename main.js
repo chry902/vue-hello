@@ -4,7 +4,6 @@ const app = new Vue({
         message: `Hello VueJs`,
         name: ``,
         surname: ``,
-        images: ``,
+        img: `./img.jpeg`,
     }
 })
-const immagine = document.querySelector(`.image`)
