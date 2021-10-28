@@ -4,6 +4,6 @@ const app = new Vue({
         message: `Hello VueJs`,
         name: ``,
         surname: ``,
-        img: `./img.jpeg`,
+        img: `https://picsum.photos/200`
     }
 })
