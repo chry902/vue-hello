@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuejs intro</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="root">
+        <h1>{{message }} </h1>
+        <input v-model="name" type="text" placeholder="name">
+        <input v-model="surname" type="text" placeholder="surname">
+        <p>Welcom to {{name}} {{surname}}</p>
+        <img v-blind:class="immagine"></img>
+    </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
